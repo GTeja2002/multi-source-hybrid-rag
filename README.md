@@ -65,4 +65,18 @@ Multi-document support
 One-Line GitHub Description
 
 Intelligent Multi-Source RAG system with PDF Hybrid Search, SQL Querying, and Live Web Search powered by LangChain, Groq, and ChromaDB.
+multi-source-hybrid-rag/
+├── data/
+│   └── pdfs/
+├── src/
+│   ├── router.py
+│   ├── pdf_ingest.py
+│   ├── hybrid_retriever.py
+│   ├── sql_source.py
+│   ├── web_source.py
+│   └── main.py
+├── .gitignore
+├── requirements.txt
+├── README.md
+└── .env.example
 
